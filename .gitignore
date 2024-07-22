@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+#Misc
+ex00/ex00
+ex01/ex01
+ex02/ex02
+ex03/ex03
+ex04/ex04
+ex04/tests/*.replace
+ex04/tests/*.sed
+ex05/ex05

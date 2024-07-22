@@ -1,0 +1,27 @@
+Chapter I
+Instructions
+• The group WILL be registered to defense. Automatically. If one of of you cancels
+it, there won’t be another one.
+• Any question regarding the subject will probably complicate the subject.
+• You have to follow the submission procedures for all your exercises.
+• This subject could change up to an hour before submission.
+• The program must compile with the following flags: -Wall -Wextra -Werror; and
+uses cc.
+• If your program doesn’t compile, you’ll get 0.
+• Your program must be written in accordance with the Norm. If you have bonus
+files/functions, they are included in the norm check and you will receive a 0 if there
+is a norm error inside.
+• You must turn in a Makefile, which will compile your project using the rules $NAME,
+clean and fclean
+• You must therefore do the project with the imposed team and show up at the
+defense slot you’ve assigned, with all of your teammates.
+• Each member of your group must be fully aware of the works of the project. Should
+you choose to split the workload, make sure you all understand what everybody’s
+done. During defense, you’ll be asked questions, and the final grade will be based
+on the worst explainations.
+• Gathering the group is your responsibility. You’ve got all the means to get in
+contact with your teammates: phone, email, carrier pigeon, spiritism, etc. So don’t
+bother blurping up excuses. Life isn’t always fair, that’s just the way it is.
+• However, if you’ve really tried everything one of your teammates remains unreachable : do the project anyway, and we’ll try and see what we can do about it during
+defense. Even if the group leader is missing, you still have access to the submission
+directory.
