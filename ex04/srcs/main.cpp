@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/21 14:54:54 by ibertran          #+#    #+#             */
-/*   Updated: 2024/07/22 03:02:24 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/07/23 14:12:32 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,8 @@ void	read_and_replace(std::ifstream& in, std::ofstream& out, std::string search,
 		buffer.insert(pos, replace);
 		pos = buffer.find(search, pos + replace.length());
 	}
-	out << buffer;
+	if (buffer.length() != 0)
+		out << buffer;
 }
 
 
@@ -58,6 +59,11 @@ int main(int ac, char **av)
 	if (ac != 4)
 	{
 		std::cerr << "Usage: " << av[0] << " [FILE] [STRING] [STRING]" << std::endl;
+		return (1);
+	}
+	if (!*av[2])
+	{
+		std::cerr << "Error: Empty search string" << std::endl;
 		return (1);
 	}
 
